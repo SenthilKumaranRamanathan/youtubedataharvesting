@@ -7,7 +7,8 @@ import streamlit as st
 from pytube import YouTube
 
 # connecting to youtube using API Key
-youtube = build("youtube", "v3", developerKey="AIzaSyCAJDoNA8Nn7Q6BEHZXhQiZmBJv6vIAFWc")
+youtube = build("youtube", "v3", developerKey="API KEY") 
+# not Provided the key for security reasons.
 
 # connecting to SQL
 import mysql.connector
